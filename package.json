@@ -5,9 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack",
-    "build": "babel src -d dist",
-    "build:tsc": "tsc",
-    "build:queusamos": "cross-env NODE_ENV=production webpack",
+    "build": "cross-env NODE_ENV=production webpack",
     "start": "live-server"
   },
   "devDependencies": {
