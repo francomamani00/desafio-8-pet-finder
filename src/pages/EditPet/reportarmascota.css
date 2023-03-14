@@ -1,0 +1,36 @@
+.conteinerAll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.mascota__cargar {
+  font-size: 14px;
+  color: rgb(124, 124, 124, 0.3);
+  position: absolute;
+  padding: 80px;
+}
+.mascota__imagen {
+  height: 200px;
+  width: 200px;
+  border: 2px solid #ffffff;
+  filter: drop-shadow(3px 4px 8px #a2a2a2);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.mascota__imagen:hover {
+  border-color: #e3e3e3;
+  cursor: pointer;
+}

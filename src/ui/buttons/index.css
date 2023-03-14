@@ -1,0 +1,49 @@
+.root {
+  border-radius: 4px;
+  background-color: aqua;
+  padding: 5px 10px;
+  text-align: center;
+  border: solid 2px;
+}
+.button {
+  background: black;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 25px;
+  margin-top: 10px;
+  letter-spacing: 0.1px;
+  line-height: 1em;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  min-width: 220px;
+}
+.buttonred {
+  background-color: red;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 25px;
+  margin-top: 10px;
+  letter-spacing: 0.1px;
+  line-height: 1em;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  min-width: 220px;
+}
+.button:hover,
+.buttonred:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.button:disabled {
+  background: #e0e0e0;
+  cursor: progress;
+}

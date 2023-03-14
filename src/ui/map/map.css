@@ -1,0 +1,53 @@
+.map {
+  height: 300px;
+  max-width: 360px;
+  border-radius: 30px;
+}
+.container {
+  max-width: 360px;
+  margin-bottom: 10px;
+  border: 2px solid red;
+  padding: 0.1px 0.1px 4px;
+  border-radius: 30px;
+}
+.spects {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.textLabel {
+  padding: 8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.textField {
+  margin-top: 10px;
+}
+.buttonredsmall {
+  background-color: red;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 25px;
+  margin-top: 12px;
+  letter-spacing: 0.1px;
+  line-height: 1em;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  width: 160px;
+}
+
+.buttonredsmall:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+  cursor: pointer;
+}

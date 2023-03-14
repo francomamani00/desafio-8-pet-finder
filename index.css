@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.search-form {
+  border: solid 2px aqua;
+}
+.search-result-item {
+  border: solid 2px red;
+  display: flex;
+}
+.search-result-item__picture {
+  width: 300px;
+}
+.search-result-item__data {
+  flex-grow: 1;
+}
+.dz-image img {
+  height: 197px;
+  width: 197px;
+}

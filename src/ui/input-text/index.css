@@ -1,0 +1,25 @@
+.textfield,
+.textarea {
+  letter-spacing: 0.1px;
+  border: 1px solid #e1e1e1;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 18px;
+  min-width: 300px;
+  transition: all 0.3s ease-in-out;
+  /* padding: 5px 10px; */
+  /* text-align: center; */
+}
+
+.textfield:focus {
+  transition: 0.5s;
+  transform: scale(1.07);
+}
+.textarea:focus {
+  transition: 0.5s;
+  transform: scale(1.07);
+}
+.textarea {
+  resize: none;
+  min-width: 300px;
+}

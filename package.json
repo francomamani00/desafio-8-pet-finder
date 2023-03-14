@@ -1,0 +1,35 @@
+{
+  "name": "3-babel-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack",
+    "build": "babel src -d dist",
+    "build:tsc": "tsc",
+    "build:queusamos": "cross-env NODE_ENV=production webpack",
+    "start": "live-server"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "@types/react": "^18.0.27",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.3",
+    "dropzone": "^6.0.0-beta.2",
+    "file-loader": "^6.2.0",
+    "live-server": "^1.2.2",
+    "mapbox": "^1.0.0-beta10",
+    "mapbox-gl": "^2.13.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-mapbox-gl": "^5.1.1",
+    "react-router-dom": "^6.8.1",
+    "recoil": "^0.7.6",
+    "style-loader": "^3.3.1"
+  }
+}

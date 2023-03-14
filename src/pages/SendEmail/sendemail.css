@@ -1,0 +1,19 @@
+.conteinerAll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.buttonback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
